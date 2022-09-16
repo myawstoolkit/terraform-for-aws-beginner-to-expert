@@ -1,0 +1,8 @@
+terraform
+  init
+  plan
+    state file is updated for any changes and updates on the .tf.
+  apply
+    create resources that's what's in your .tf file
+  destroy
+    deletes your resource
