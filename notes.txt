@@ -6,3 +6,6 @@ terraform
     create resources that's what's in your .tf file
   destroy
     deletes your resource
+
+
+Public IP's are pulled from a pool of available addresses where as EIP's are "reserved" for a better word and will remain the same until released. If we redeployed an instance with an EIP associated it will remain the same. If we deployed an EC2 instance with a public IP associated, it would change after every redeployment.
